@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-CQHxkVJi.css",
+    "file": "assets/app-pbK6sk6h.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -9,7 +9,7 @@
     ]
   },
   "resources/css/theme-dark.css": {
-    "file": "assets/theme-dark-BsglJ7e8.css",
+    "file": "assets/theme-dark-AIrec7Hh.css",
     "src": "resources/css/theme-dark.css",
     "isEntry": true,
     "name": "theme-dark",
@@ -18,7 +18,7 @@
     ]
   },
   "resources/css/theme-light.css": {
-    "file": "assets/theme-light-G46_pyd2.css",
+    "file": "assets/theme-light-B0aiy2GC.css",
     "src": "resources/css/theme-light.css",
     "isEntry": true,
     "name": "theme-light",
@@ -27,7 +27,7 @@
     ]
   },
   "resources/css/theme-neutral.css": {
-    "file": "assets/theme-neutral-2xjwpX5w.css",
+    "file": "assets/theme-neutral-B62isp15.css",
     "src": "resources/css/theme-neutral.css",
     "isEntry": true,
     "name": "theme-neutral",
@@ -56,7 +56,7 @@
     "src": "resources/images/night.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app-B3duTNdR.js",
+    "file": "assets/app-D048F4OF.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
