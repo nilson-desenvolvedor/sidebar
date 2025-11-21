@@ -1,0 +1,67 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CQHxkVJi.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/theme-dark.css": {
+    "file": "assets/theme-dark-BsglJ7e8.css",
+    "src": "resources/css/theme-dark.css",
+    "isEntry": true,
+    "name": "theme-dark",
+    "names": [
+      "theme-dark.css"
+    ]
+  },
+  "resources/css/theme-light.css": {
+    "file": "assets/theme-light-G46_pyd2.css",
+    "src": "resources/css/theme-light.css",
+    "isEntry": true,
+    "name": "theme-light",
+    "names": [
+      "theme-light.css"
+    ]
+  },
+  "resources/css/theme-neutral.css": {
+    "file": "assets/theme-neutral-2xjwpX5w.css",
+    "src": "resources/css/theme-neutral.css",
+    "isEntry": true,
+    "name": "theme-neutral",
+    "names": [
+      "theme-neutral.css"
+    ]
+  },
+  "resources/images/day.png": {
+    "file": "assets/day-CFCelfsU.png",
+    "src": "resources/images/day.png"
+  },
+  "resources/images/header.png": {
+    "file": "assets/header-Cc2o6hse.png",
+    "src": "resources/images/header.png"
+  },
+  "resources/images/header1.png": {
+    "file": "assets/header1-BeZADceb.png",
+    "src": "resources/images/header1.png"
+  },
+  "resources/images/header2.png": {
+    "file": "assets/header2-JUxAoXFS.png",
+    "src": "resources/images/header2.png"
+  },
+  "resources/images/night.png": {
+    "file": "assets/night-ZCnCmR9y.png",
+    "src": "resources/images/night.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B3duTNdR.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-D04_KDLT.css"
+    ]
+  }
+}

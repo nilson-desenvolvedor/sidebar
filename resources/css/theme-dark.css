@@ -1,0 +1,111 @@
+/* ============================================
+   TEMA ESCURO — SIDEBAR COMPLETA
+   ============================================ */
+
+/* ----- CONTAINER PRINCIPAL ----- */
+.theme-dark #sidebar {
+    background-image: url('../images/night.png');
+    background-size: auto 80%;       /* cover + leve zoom OUT */
+    background-color: #224;
+    background-position: bottom; /* canto inferior esquerdo */
+    background-repeat: no-repeat;
+}
+
+.theme-dark #sidebar {
+    background:
+        linear-gradient(to top, transparent 20%, #55A 100%),
+        url('../images/night.png');
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* Overlay geral da sidebar */
+.theme-dark #sidebar .sidebar-overlay {
+    background: rgba(0, 0, 0, 0.80);
+}
+
+/* ----- HEADER ----- */
+/* --- HEADER: imagem de fundo --- */
+.theme-dark #sidebar .header-container {
+    background-image: url('../images/header1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* --- HEADER: máscara escura por cima --- */
+.theme-dark #sidebar .header-overlay {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+
+/* Título do header */
+.theme-dark #sidebar h1 {
+    color: #aaa;
+}
+
+/* Botão toggle */
+.theme-dark #toggleSidebar {
+    background: rgba(20, 20, 20, 0.75);
+    border-color: #444;
+}
+
+.theme-dark #toggleSidebar i {
+    color: #aaa;
+}
+
+/* ----- SEÇÕES ----- */
+.theme-dark #sidebar .menu-section-title {
+    color: #aaa;
+}
+
+/* ----- MENU PRINCIPAL ----- */
+.theme-dark #sidebar .menu-item {
+    color: #eee;
+}
+
+/* Hover do menu principal */
+.theme-dark #sidebar .menu-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Ícones */
+.theme-dark #sidebar i {
+    color: #aaa;
+}
+
+/* ----- DROPDOWN (primeiro nível) ----- */
+.theme-dark #sidebar .submenu {
+    background: rgba(0, 0, 0, 0.40);
+}
+
+/* Setas do dropdown */
+.theme-dark #sidebar .dropdown-arrow,
+.theme-dark #sidebar .arrow-second {
+    color: #ccc;
+}
+
+/* ----- SEGUNDO NÍVEL ----- */
+.theme-dark #sidebar .submenu-second {
+    background: rgba(0, 0, 0, 0.30);
+}
+
+/* Hover segundo nível */
+.theme-dark #sidebar .submenu-second a:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* ----- BORDER DIVIDER ----- */
+.theme-dark #sidebar .border-t {
+    border-color: rgba(255, 255, 255, 0.20) !important;
+}
+
+/* ----- RODAPÉ ----- */
+.theme-dark #sidebar .absolute.bottom-0 {
+    background: rgba(0, 0, 0, 0.40);
+}
+
+.theme-dark #sidebar .absolute.bottom-0 span {
+    color: #aaa;
+}

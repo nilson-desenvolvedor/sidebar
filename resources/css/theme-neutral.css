@@ -1,0 +1,128 @@
+/* ============================================
+TEMA NEUTRAL — SIDEBAR COMPLETA
+============================================ */
+
+/* ----- CONTAINER PRINCIPAL ----- */
+#sidebar {
+    background:
+        /* camada superior — linear opaco suave */
+        linear-gradient(
+            135deg,
+            hsla(200, 70%, 60%, .55),
+            hsla(180, 60%, 55%, .55),
+            hsla(160, 60%, 55%, .55),
+            hsla(200, 70%, 60%, .55),
+            hsla(240, 60%, 65%, .55),
+            hsla(260, 60%, 65%, .55),
+            hsla(280, 60%, 70%, .55)
+        ),
+
+        /* camada inferior — radial mais leve */
+        radial-gradient(
+            circle at center,
+            hsla(200, 70%, 60%, 0.9),
+            hsla(180, 60%, 55%, 0.9),
+            hsla(160, 60%, 55%, 0.9),
+            hsla(240, 60%, 65%, 0.9),
+            hsla(260, 60%, 65%, 0.9),
+            hsla(280, 60%, 70%, 0.9)
+        );
+}
+
+/* Overlay geral da sidebar */
+#sidebar .sidebar-overlay {
+    background: rgba(255, 255, 255, 0.65);
+}
+
+/* ----- HEADER ----- /
+/ Imagem */
+#sidebar .header-container {
+background-image: url('../images/header.png');
+background-size: cover;
+background-position: center;
+}
+
+/* Máscara */
+#sidebar .header-overlay {
+background-color: rgba(255, 255, 255, 0.45);
+}
+
+/* Título do header */
+#sidebar h1 {
+color: #444;
+}
+
+/* Botão toggle */
+#toggleSidebar {
+background: rgba(230, 230, 230, 0.80);
+border-color: #bbb;
+}
+
+#toggleSidebar i {
+color: #555;
+}
+
+/* ----- SEÇÕES ----- */
+.menu-section-title {
+color: #555;
+}
+
+/* ----- MENU PRINCIPAL ----- */
+.theme-neutral #sidebar .menu-item {
+color: #333;
+}
+
+/* Hover */
+#sidebar .menu-item:hover {
+background: rgba(0, 0, 0, 0.06);
+}
+
+/* Ícones */
+#sidebar i {
+color: #555;
+}
+
+/* ----- DROPDOWN (primeiro nível) ----- */
+#sidebar .submenu {
+background: rgba(0, 0, 0, 0.08);
+}
+
+/* Setas */
+#sidebar .dropdown-arrow,
+#sidebar .arrow-second {
+color: #666;
+}
+
+/* ----- SEGUNDO NÍVEL ----- */
+#sidebar .submenu-second {
+background: rgba(0, 0, 0, 0.06);
+}
+
+/* Hover segundo nível */
+#sidebar .submenu-second a:hover {
+background: rgba(0, 0, 0, 0.10);
+}
+
+/* ----- BORDER DIVIDER ----- */
+#sidebar .border-t {
+border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ----- RODAPÉ ----- */
+#sidebar .absolute.bottom-0 {
+background: rgba(0, 0, 0, 0.08);
+}
+
+#sidebar .absolute.bottom-0 span {
+color: #555;
+}
+
+/* garante transição e layout previsível para os textos que somem */
+#sidebar .menu-label,
+#sidebar .menu-section-title,
+#sidebar .menu-text {
+  display: inline-block;
+  transition: opacity .25s, transform .25s, width .25s;
+  vertical-align: middle;
+  white-space: nowrap;
+}

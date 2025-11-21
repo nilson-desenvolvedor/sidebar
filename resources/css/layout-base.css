@@ -1,0 +1,161 @@
+/* ============================
+   VARIÁVEIS DO TEMA ESCURO
+   ============================ */
+.theme-dark {
+    --bg-body: #121212;
+    --text: #aaa;
+    --text-strong: #ccc;
+
+    --link: #6ca0ff;
+    --link-hover: #99bdff;
+
+    --heading: #bbb;
+
+    --input-bg: #1b1b1b;
+    --input-text: #e5e5e5;
+    --input-border: #444;
+    --input-border-focus: #6ca0ff;
+
+    --card-bg: #1b1b1b;
+    --card-text: #e5e5e5;
+    --card-border: #333;
+
+    --btn-bg: #242424;
+    --btn-text: #e5e5e5;
+    --btn-border: #444;
+    --btn-hover-bg: #333;
+    --btn-hover-border: #666;
+
+    --divider: #333;
+
+    --table-bg: #222;
+    --table-th-bg: #1f1f1f;
+    --table-text: #e5e5e5;
+    --table-th-text: #bbb;
+    --table-header-bg: #222;
+    --table-header-text: #ffffff;
+    --table-border: #333;
+    --table-th-border: #555;    
+
+    background-color: var(--bg-body);
+    color: var(--text-color);
+}
+
+.theme-light {
+    --bg-body: #eee;
+    --text: #444;
+    --text-strong: #222;
+
+    --link: #0057d9;
+    --link-hover: #003c99;
+
+    --heading: #111;
+
+    --input-bg: #ffffff;
+    --input-text: #222;
+    --input-border: #ccc;
+    --input-border-focus: #0057d9;
+
+    --card-bg: #ffffff;
+    --card-text: #456;
+    --card-border: #ddd;
+
+    --btn-bg: #eaeaea;
+    --btn-text: #222;
+    --btn-border: #ccc;
+    --btn-hover-bg: #dcdcdc;
+    --btn-hover-border: #bbb;
+
+    --divider: #ddd;
+
+    --table-bg: #fff;
+    --table-th-bg: #ffffff;    
+    --table-text: #222;
+    --table-th-text: #345;
+    --table-header-bg: #f0f0f0;
+    --table-header-text: #111;
+    --table-border: #ccc;
+    --table-th-border: #aaa;
+
+    background-color: var(--bg-body);
+    color: var(--text);
+}
+
+
+/* Fundo + texto */
+body {
+    background-color: var(--bg-body);
+    color: var(--text);
+}
+
+/* Links */
+a {
+    color: var(--link);
+}
+a:hover {
+    color: var(--link-hover);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-strong);
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+    background-color: var(--input-bg);
+    color: var(--input-text);
+    border: 1px solid var(--input-border);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--input-border-focus);
+    outline: none;
+}
+
+/* Cards / containers */
+.card,
+.panel,
+.box,
+.container {
+    background-color: var(--card-bg);
+    color: var(--card-text);
+    border: 1px solid var(--card-border);
+}
+
+/* Botões */
+.btn {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: 1px solid var(--btn-border);
+    cursor:pointer;    
+}
+
+.btn:hover {
+    background-color: var(--btn-bg-hover);
+}
+
+/* Divisores */
+hr {
+    border-color: var(--card-border);
+}
+
+/* Tabela */
+table {
+    background-color: var(--table-bg);
+    color: var(--table-text);
+}
+
+table th {
+    background-color: var(--table-th-bg);
+    color: var(--table-th-text);
+    border-color: var(--table-th-border);
+}
+
+table td {
+    border-color: var(--table-border);
+}
