@@ -2,6 +2,9 @@
 
 ## Demo
 [sidebar.operarss.com.br](https://sidebar.operarss.com.br)
+<p align="center">
+  <img src="https://sidebar.operarss.com.br/demo.gif" alt="Demo" />
+</p>
 
 
 ### Português
