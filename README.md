@@ -1,5 +1,5 @@
 # Operar Sidebar
-## Português
+### Português
 Sidebar no estilo acordeon, com suporte a múltiplos níveis e três temas (claro, escuro e neutro). Desenvolvida usando apenas CSS e JavaScript puro. Fácil de instalar, fácil de adaptar e pronta para ser integrada em qualquer projeto.
 
 
