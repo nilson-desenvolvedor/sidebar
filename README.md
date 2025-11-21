@@ -82,6 +82,73 @@ import './sidebar';
 ### English
 A responsive accordion-style sidebar with support for multi-level menus and three built-in themes (light, dark, and blue). Built using only CSS and vanilla JavaScript, it is easy to install, simple to customize, and ready to integrate into any project.
 
+## 📌 Step-by-step installation for Laravel
+
+### **Step 1 — Install Tailwind**  
+*(Warning: Tailwind resets and overrides all default HTML styles)*
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+```
+
+---
+
+### **Step 2 — Install Tippy**
+
+```bash
+npm install tippy.js
+```
+
+---
+
+### **Step 3 — Download the files into the correct folders**
+
+**resources/css**  
+- theme-dark.css  
+- theme-light.css  
+- theme-neutral.css  
+
+**resources/js**  
+- sidebar.js  
+
+**resources/views/components**  
+- sidebar.blade.php  
+
+---
+
+### **Step 4 — Import the themes in `resources/css/app.css`**
+
+```css
+@import "./theme-neutral.css";
+@import "./theme-dark.css";
+@import "./theme-light.css";
+```
+
+---
+
+### **Step 5 — Import the sidebar JS in `resources/js/app.js`**
+
+```js
+import './sidebar';
+```
+
+---
+
+### **Step 6 — Include the component right after the `<body>` tag**
+
+```html
+<body>
+    @include('components.sidebar')
+```
+
+---
+
+### **Step 7 (optional for neutral theme) — Choose a theme**
+
+```html
+<body class="theme-dark">
+    @include('components.sidebar')
+```
 
 
 
