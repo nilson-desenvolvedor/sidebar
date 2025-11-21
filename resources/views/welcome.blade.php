@@ -24,7 +24,7 @@
     </head>
     {{--------- APENAS DOIS PASSOS SIMPLES ---------}}
     {{-- Opcionalmente defina o data-theme dark/light e a class theme-dark/theme-light para selecionar um tema --}}
-    <body data-theme="dark" class="theme-dark bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
+    <body class="theme-dark bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
         {{-- Inclua o sidebar e já está funcionando --}}
         @include('components.sidebar')
     {{------------------- FIM ----------------------}}

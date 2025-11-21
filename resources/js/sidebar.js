@@ -5,7 +5,10 @@ import 'tippy.js/themes/light.css';
 
 document.addEventListener("DOMContentLoaded", function () {
     const body = document.querySelector('body');
-    const currentTheme = body.dataset.theme || 'dark';
+
+    const themeClass = [...body.classList].find(c => c.startsWith('theme-')) || "theme-neutral";
+    console.log(themeClass);
+    const currentTheme = themeClass ? themeClass.replace('theme-', '') : 'dark';
     
     const sidebar = document.getElementById("sidebar");
     if (!sidebar) return;
@@ -33,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const singleton = createSingleton(tippies, {
         delay: 0, // ou [100, 50] etc
         moveTransition: 'transform 0.2s ease-out',
-        theme: currentTheme,
         placement: 'right',
     });
 
@@ -191,23 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
         node = sidebar.querySelector(`a[href="${urlAbsoluta}"]`) 
             || sidebar.querySelector(`a[href="${urlAtual}"]`);
         //console.log(node);
-        if (node) {
-            if (currentTheme === "dark") {
-                node.classList.add(
-                    "bg-blue-900/60",
-                    "text-blue-200",
-                    "border-l-4",
-                    "border-blue-400"
-                );
-            } else {
-                node.classList.add(
-                    "bg-blue-100",
-                    "text-blue-800",
-                    "border-l-4",
-                    "border-blue-400"
-                );
-            }
-        }
+        if (node) node.classList.add("active-item");
     }
 
 

@@ -95,6 +95,20 @@
     background: rgba(0, 0, 0, 0.08);
 }
 
+/* Active item for light theme */
+.theme-light #sidebar .active-item {
+    background: rgba(0, 180, 220, 0.1);
+    color: #1e3a8a; /* exemplo */
+    border-left: 4px solid #3b82f6;
+}
+
+/* Active item for light theme */
+.theme-light #sidebar .active-item:hover {
+    background: rgba(0, 180, 220, 0.25);
+    color: #1e3a8a; /* exemplo */
+    border-left: 4px solid #3b82f6;
+}
+
 /* ----- BORDER DIVIDER ----- */
 .theme-light #sidebar .border-t {
     border-color: rgba(0, 0, 0, 0.15) !important;
@@ -107,4 +121,14 @@
 
 .theme-light #sidebar .absolute.bottom-0 span {
     color: #555;
+}
+
+/* ----- TIPPY ----- */
+.theme-light .tippy-box {
+    background: white;
+    color: #444;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+.theme-light .tippy-arrow {
+    color: white;
 }

@@ -10,15 +10,12 @@
     //$def = \App\Models\UserDefinition::first(); // exemplo
 
     // Se não houver light ou dark, o laravel reconhece o neutral que foi carregado no app.css
-    $theme_bd     = $def->theme ?? null;
     $theme_css_bd = $def->theme_css ?? null;
     // Ou o valor pode ser substituído por light ou dark dependendo da sua escolha
-    //$theme_bd     = $def->theme ?? 'light';
-    //$theme_css_bd = $def->theme_css ?? 'theme-light';
+    //$theme_css_bd = $def->theme_css ?? 'light';
 
     // Aqui o tema vindo do bdd pode ser sobrescrito por um dema definido diretamente na página extendida
-    $theme     = $__env->yieldContent('theme')     ?: $theme_bd;
-    $theme_css = $__env->yieldContent('theme_css') ?: $theme_css_bd;
+    $theme_css = $__env->yieldContent('theme') ?: $theme_css_bd;
 @endphp
 
     <title>@yield('title','Operar Sidebar')</title>
@@ -40,7 +37,7 @@
     @vite($assets, 'build')
 
 </head>
-<body{!! $theme_css ? ' class="'.$theme_css.'"' : '' !!}{!! $theme ? ' data-theme="'.$theme.'"' : '' !!}>
+<body{!! $theme_css ? ' class="'.$theme_css.'"' : '' !!}>
 
     @if(! $__env->hasSection('no-sidebar'))
         @include('components.sidebar')

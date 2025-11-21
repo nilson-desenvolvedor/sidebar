@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('theme_css','theme-light')
+@section('theme','theme-light')
 @section('no-sidebar', true)
 @section('title', 'Sem sidebar - No sidebar')
 

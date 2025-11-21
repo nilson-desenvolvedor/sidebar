@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
-@section('theme_css', 'all')
+@section('theme', 'all')
 
 @section('title', 'Página simples - Simple page')
 

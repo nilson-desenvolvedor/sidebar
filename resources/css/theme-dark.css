@@ -96,6 +96,18 @@
     background: rgba(255, 255, 255, 0.12);
 }
 
+.theme-dark #sidebar .active-item {
+    background: rgba(59, 130, 246, 0.25);
+    color: #bfdbfe;
+    border-left: 4px solid #60a5fa;
+}
+
+.theme-dark #sidebar .active-item:hover {
+    background: rgba(59, 120, 220, 0.45);
+    color: #bfdbfe;
+    border-left: 4px solid #60a5fa;
+}
+
 /* ----- BORDER DIVIDER ----- */
 .theme-dark #sidebar .border-t {
     border-color: rgba(255, 255, 255, 0.20) !important;
@@ -108,4 +120,14 @@
 
 .theme-dark #sidebar .absolute.bottom-0 span {
     color: #aaa;
+}
+
+/* ----- TIPPY ----- */
+.theme-dark .tippy-box {
+    background: #222;
+    color: #cbd5e1;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.theme-dark .tippy-arrow {
+    color: #222;
 }

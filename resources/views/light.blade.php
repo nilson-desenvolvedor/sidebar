@@ -2,8 +2,7 @@
 
 @section('title', 'Tema Claro - Light Theme')
 
-@section('theme', 'light')
-@section('theme_css', 'theme-light')
+@section('theme', 'theme-light')
 
 @section('content')
     <div class="min-h-[calc(100vh-12rem)] flex items-center justify-center">

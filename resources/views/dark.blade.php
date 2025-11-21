@@ -2,8 +2,7 @@
 
 @section('title', 'Tema Escuro - Dark Theme')
 
-@section('theme', 'dark')
-@section('theme_css', 'theme-dark')
+@section('theme', 'theme-dark')
 
 @section('content')
     <div class="min-h-[calc(100vh-12rem)] flex items-center justify-center">
